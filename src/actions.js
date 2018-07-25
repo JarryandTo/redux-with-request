@@ -1,6 +1,6 @@
 import request, {onSuccess} from './lib/request';
 import queryString from 'query-string';
-const url = '10.138.227.219:8080/mplm/'
+// const url = '10.138.227.219:8080/mplm/'
 export const actions = {
   SAY_HELLO: 'SAY_HELLO',
   SEND_ASYNC_REQUEST: 'SEND_ASYNC_REQUEST',
